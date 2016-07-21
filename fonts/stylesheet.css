@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'optima-bold';
+	src: url('fonts/optima-bold.eot');
+	src: url('fonts/optima-bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/optima-bold.woff2') format('woff2'),
+		url('fonts/optima-bold.woff') format('woff'),
+		url('fonts/optima-bold.ttf') format('truetype'),
+		url('fonts/optima-bold.svg#optima-bold') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'optima';
+	src: url('fonts/optima.eot');
+	src: url('fonts/optima.eot?#iefix') format('embedded-opentype'),
+		url('fonts/optima.woff2') format('woff2'),
+		url('fonts/optima.woff') format('woff'),
+		url('fonts/optima.ttf') format('truetype'),
+		url('fonts/optima.svg#optima') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'gandhi-bolditalic';
+	src: url('fonts/gandhi-bolditalic.eot');
+	src: url('fonts/gandhi-bolditalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gandhi-bolditalic.woff2') format('woff2'),
+		url('fonts/gandhi-bolditalic.woff') format('woff'),
+		url('fonts/gandhi-bolditalic.ttf') format('truetype'),
+		url('fonts/gandhi-bolditalic.svg#gandhi-bolditalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'gandhi';
+	src: url('fonts/gandhi-regular.eot');
+	src: url('fonts/gandhi-regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gandhi-regular.woff2') format('woff2'),
+		url('fonts/gandhi-regular.woff') format('woff'),
+		url('fonts/gandhi-regular.ttf') format('truetype'),
+		url('fonts/gandhi-regular.svg#gandhi-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gandhi-italic';
+	src: url('fonts/gandhi-italic.eot');
+	src: url('fonts/gandhi-italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gandhi-italic.woff2') format('woff2'),
+		url('fonts/gandhi-italic.woff') format('woff'),
+		url('fonts/gandhi-italic.ttf') format('truetype'),
+		url('fonts/gandhi-italic.svg#gandhi-italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'gandhi-bold';
+	src: url('fonts/gandhi-bold.eot');
+	src: url('fonts/gandhi-bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gandhi-bold.woff2') format('woff2'),
+		url('fonts/gandhi-bold.woff') format('woff'),
+		url('fonts/gandhi-bold.ttf') format('truetype'),
+		url('fonts/gandhi-bold.svg#gandhi-bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}

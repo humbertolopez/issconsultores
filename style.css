@@ -1,0 +1,1379 @@
+/*
+
+Theme Name: ISS-Consultores
+
+Theme URI: http://www.merkategia.com
+
+Description: ISS Consultores
+
+Author: MERKATEGIA
+
+Author URI: http://www.merkategia.com
+
+Version: 1.0
+
+*/
+
+
+
+/* FONTS
+
+optima | optima-bold | gandhi | gandhi-italic | gandhi-bold | gandhi-bolditalic */
+
+
+
+* { border: 0; padding:0; margin:0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+
+img { width: 100%; }
+
+a, a:hover { transition: All 0.35s ease; -webkit-transition: All 0.35s ease; -moz-transition: All 0.35s ease; -ms-transition: All 0.35s ease; -o-transition: All 0.35s ease; }
+
+body {background: url('images/iss-consultores-bg.jpg') repeat; text-align: center; }
+
+
+
+/* ===== HEADER ===== */
+
+.menu_bar { display:none; } 
+
+header { background: #FFF; width: 100%; }
+
+.cont-header { margin: 0 auto; max-width: 1080px; width: 100%;}
+
+.cont-header h1, .cont-header nav { display: inline-block; width: 20%; z-index:1000; text-align: left; vertical-align: middle; }
+
+.cont-header h1 img { width: 100px; }
+
+.cont-header nav { text-align: right; width: 76%; }
+
+.cont-header nav ul { list-style:none; }
+
+.cont-header nav ul li { display:inline-block; position: relative; }
+
+.cont-header nav ul li span { font-size: 8px; }
+
+.cont-header nav ul li:hover { background-color:#541913; }
+
+.cont-header nav ul > li a { color:#323130; display:block; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; text-decoration:none; padding: 20px; }
+
+.cont-header nav ul > li a:hover { color: #FFF; }
+
+.cont-header nav ul li:hover .children { display:block; }
+
+.cont-header nav ul li .children { color: #FFF; display: none; background:#323130; position: absolute; text-align: center; width: 150%; z-index:1000; }
+
+.cont-header nav ul li .children li { display:block; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,.5); }
+
+.cont-header nav ul li .children li a { color: #FFF; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 14px; }
+
+.cont-header nav ul li .children li a:hover { color: #FFF; }
+
+.cont-header nav ul li .caret { position: relative; top:3px; margin-left:10px; margin-right:0px; }
+
+
+
+/* ===== SLIDER TOP INDEX ===== */
+
+section.cont-slider-top-index { margin: 0 auto; width: 100%; }
+
+.cont-gral-slider-index { position: relative; }
+
+.slider-img { position: absolute; top: 0; z-index: 99; }
+
+
+
+.info-top-index { max-width: 1080px; margin: 0 auto; height: 100%; position: absolute; top: 0; left: 0; right: 0; z-index: 99; }
+
+.info-aumenta, .info-reduce { background: #323130; padding: 10px 25px; position: absolute; width: 190px; }
+
+.info-aumenta p, .info-reduce p { color: #FFF; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; }
+
+.info-aumenta p span, .info-reduce p span { font-size: 32px; }
+
+.info-aumenta { bottom: 30%; left: 0; }
+
+.info-reduce { top: 30%; right: 35%;}
+
+
+
+.info-form { display: block; float: right; margin-top: 5%; max-width: 360px; }
+
+.btn-proxima-cap { background: #323130; box-shadow: 0px 2px 10px rgba(0,0,0,0.75); }
+
+.btn-proxima-cap:hover { background: #808080; }
+
+.btn-proxima-cap a { color: #D6D6D6; display: block; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 21.5px; padding: 15px 25px; text-align: left; text-decoration: none; }
+
+.btn-proxima-cap a span { font-size: 30px; }
+
+.prox-ind { color: #D6D6D6; font-size: 32px; position: absolute; right: 10px; top: 30%;
+
+}
+
+.info-form form { background: #D6D6D6; display: block; margin: 0 15px; padding: 20px; }
+
+.info-form form p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; padding-bottom: 10px; }
+
+.info-form form input { background: #FFF; color: #323130; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 10px 0; padding: 10px 15px; width: 100%; }
+
+.info-form form input:focus { outline-color: #323130; }
+
+ .info-form form input.btn-enviar, .login-form-container input[type=submit] { background: #323130; color: #D6D6D6; cursor: pointer; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 0 auto; max-width: 120px; }
+
+ .info-form form input.btn-enviar:hover, .login-form-container input[type=submit] { background: #808080; }
+
+ /* ===== METODOLOGIA INDEX ===== */
+
+ section.cont-metodologia-index { background: url('images/iss-consultores-index-metodologia-bg.jpg') center center no-repeat; background-size: cover; border-top: 10px solid #323130; position: relative; width: 100%; }
+
+ .metodologia-index { max-width: 1080px; margin: 0 auto; padding: 0 10px 40px 10px; position: relative; }
+
+ .metodologia-index p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; text-align: left; max-width: 400px; margin-top: -180px; }
+
+  .metodologia-index p span { color: #541913; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; line-height: 1; }
+
+  .metodologia-index p a { background: #323130; color: #D6D6D6; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; padding: 10px 20px; text-decoration: none; }
+
+  .met-cafe { position: absolute; bottom: 0; right: 10%; }
+
+  img.met-cafe { max-width: 200px; }
+
+
+
+/* ===== NUESTROS SERVICIOS INDEX ===== */
+
+section.cont-servicios-index { padding: 40px 0; width: 100%; }
+
+.servicios-index { max-width: 1080px; margin: 0 auto; padding: 0 10px; width: 100%; }
+
+.servicios-index h2 { color: #541913; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; }
+
+.servicios-index p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; }
+
+.cat-servicios { padding: 20px; width: 33%; text-align: left; margin: 0 auto; display: inline-block; vertical-align: top; }
+
+.cat-servicios h3 { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; padding: 20px 0; }
+
+.cat-servicios p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; }
+
+.btn-cat-serv { margin: 30px 0; }
+
+.btn-cat-serv a { background: #541913; color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; padding: 15px 20px; text-decoration: none; }
+
+.btn-cat-serv a:hover { background: #323130; }
+
+
+
+/* ===== CLIENTES INDEX ===== */
+
+.cont-clientes-index { background: url('images/iss-consultores-index-clientes-bg.png') center top no-repeat; width: 100%; }
+
+.clientes-index { max-width: 1080px; margin: 0 auto; padding: 180px 10px 180px 10px; width: 100%; }
+
+.clientes-index h2 { color: #FFF; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; }
+
+.clientes-index p { color: #FFF; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; }
+
+.carousel-clientes-index { padding-top: 100px; }
+
+
+
+/* ===== GIROS EMPRESARIALES INDEX ===== */
+
+.cont-girosemp-index { padding: 40px 0; width: 100%; }
+
+.girosemp-index { max-width: 1080px; margin: 0 auto; padding: 0 10px; width: 100%; }
+
+.girosemp-index h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; }
+
+.girosemp-index p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; }
+
+.girosemp-index ul { margin: 40px 0; }
+
+.girosemp-index ul li { display: inline-block; list-style-type: none; margin: 20px 0; text-align: left; vertical-align: middle; width: 33%; }
+
+.girosemp-index ul li img, .girosemp-index ul li p { display: inline-block; vertical-align: middle; }
+
+.girosemp-index ul li img { max-width: 80px; margin: 0 auto; }
+
+.girosemp-index ul li p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; padding-left: 10px; }
+
+
+
+/* ===== NOSOTROS TOP ===== */
+
+section.cont-top-nosotros { background: url('images/iss-consultores-nosotros-top-bg.png') top center no-repeat; margin: 0 auto; width: 100%; }
+
+.top-nosotros { max-width: 680px; margin: 0 auto; padding: 80px 10px 160px 10px; }
+
+.top-nosotros h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; }
+
+.top-nosotros p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; }
+
+
+
+/* ===== NUESTRO PROPOSITO NOSOTROS ===== */
+
+section.cont-nuestro-prop-nosotros { margin: 0 auto; width: 100%; }
+
+.nuestro-prop-nosotros { max-width: 1080px; margin: 0 auto; padding: 10px; }
+
+.nuestro-prop-nosotros p { color: #541913; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; margin: 0 auto; max-width: 680px; }
+
+.nuestro-prop-nosotros ul li { display: inline-block; margin: 20px 0; text-align: center; vertical-align: top; width: 24%; }
+
+.nuestro-prop-nosotros ul li img { max-width: 100px; }
+
+.nuestro-prop-nosotros ul li p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; width: 120px; }
+
+.nuestro-prop-nosotros ul li p span { font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 24px; }
+
+
+
+/* ===== NUESTRA EXPERIENCIA ===== */
+
+section.cont-nuestra-experiencia-nosotros { margin: 0 auto; width: 100%; }
+
+.nuestra-experiencia-nosotros { max-width: 1080px; margin: 0 auto; padding: 10px; position: relative; }
+
+.nuestra-experiencia-nosotros p { color: #541913; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; margin: 0 auto; max-width: 480px; }
+
+.premios-nosotros { display: inline-block; margin: 20px auto; vertical-align: middle; }
+
+.premios-nosotros img { max-width: 210px; }
+
+img.cactus { position: absolute; left: 0; bottom: 0; max-width: 240px; }
+
+img.cuaderno { position: absolute; right: 0; bottom: 0; max-width: 300px; }
+
+
+
+/* ===== NUESTRA IDEOLOGIA NOSOTROS ===== */
+
+section.cont-nuestra-ideologia-nosotros { background: url('images/iss-consultores-nosotros-ideologia-bg.jpg') bottom center no-repeat; margin: 0 auto; width: 100%; }
+
+.nuestra-ideologia-nosotros { max-width: 1080px; margin: 0 auto; padding: 0 10px; }
+
+.nuestra-ideologia-nosotros img, .txt-ideologia { display: inline-block; vertical-align: bottom; width: 44%; }
+
+.txt-ideologia { margin-bottom: 120px; width: 55%; }
+
+.txt-ideologia h3 { color: #D4D4D4; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; margin-bottom: 40px; }
+
+.txt-ideologia p { color: #D4D4D4; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 26px; font-weight: normal; position: relative; }
+
+.txt-ideologia p span { font-family: 'gandhi-bolditalic', verdana, helvetica, sans-serif; }
+
+.txt-ideologia p img { max-width: 40px; }
+
+
+
+/* ===== TRAYECTORIA NOSOTROS ===== */
+
+section.cont-trayectoria-nosotros { margin: 0 auto; width: 100%; }
+
+.trayectoria-nosotros { max-width: 1080px; margin: 0 auto; padding: 40px 10px; }
+
+.trayectoria-nosotros h3 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; }
+
+
+
+/* ===== CONSULTORIA ===== */
+
+section.cont-titulo-consultoria { background: url('images/iss-consultores-consultoria-titulo.png') top center no-repeat; margin: 0 auto; width: 100%; }
+
+.titulo-consultoria { max-width: 600px; margin: 0 auto; padding: 70px 10px 110px 10px; }
+
+.titulo-consultoria h2 { color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; padding-bottom: 20px; }
+
+.titulo-consultoria p { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; }
+
+
+
+section.cont-nuestro-proceso-consultoria { margin: 0 auto; width: 100%; }
+
+.nuestro-proceso-consultoria, .compra-diagnostico.contain { margin: 0 auto; max-width: 1080px; padding: 40px 10px; }
+
+.nuestro-proceso-consultoria h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; max-width: 600px; margin: 0 auto; }
+
+.nuestro-proceso-consultoria ul li { display: inline-block; text-align: left; vertical-align: top; }
+
+.nuestro-proceso-consultoria ul li:nth-child(odd) { width: 26%; }
+
+.nuestro-proceso-consultoria ul li:nth-child(even) { width: 10%; padding-top: 50px; }
+
+.nuestro-proceso-consultoria ul li img { max-width: 300px; }
+
+.nuestro-proceso-consultoria ul li img.uno { max-width: 110px; }
+
+.nuestro-proceso-consultoria ul li img.dos { display: none; }
+
+.nuestro-proceso-consultoria ul li h3, .compra-diagnostico-contain h3 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 25px; margin: 15px 0; text-align: center; }
+
+.nuestro-proceso-consultoria ul li p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; margin-bottom: 15px; }
+
+.nuestro-proceso-consultoria ul li ul.children li { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 15px; list-style-type: circle; margin-left: 10px; padding: 0; width: 100%; }
+
+
+
+section.cont-diagnostico-consultoria { margin: 0 auto; width: 100%; }
+
+.diagnostico-consultoria { margin: 0 auto; max-width: 1140px; padding: 40px 10px; width: 100%; }
+
+.diagnostico-consultoria h3 { color: #541913; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 40px; font-weight: normal; }
+
+.diagnostico-consultoria p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; max-width: 600px; margin: 0 auto; }
+
+.comienza-diagnostico { margin: 0 auto; padding: 40px 0; width: 100%; }
+
+.lista-diagnostico, .form-diagnostico { display: inline-block; vertical-align: top; width: 60%; }
+
+.form-diagnostico { width: 39%; }
+
+.lista-diagnostico ul li { display: inline-block; vertical-align: top; width: 49%; text-align: left; margin: 10px 0; }
+
+.lista-diagnostico ul li img, .lista-diagnostico ul li p { display: inline-block; vertical-align: top; width: 30%; }
+
+.lista-diagnostico ul li img { max-width: 60px; padding-right: 10px; }
+
+.lista-diagnostico ul li p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; width: 69%; }
+
+.form-diagnostico { background: url('images/iss-consultores-consultoria-contacto-bg.png') top center no-repeat; padding: 40px 25px; position: relative; }
+
+.form-diagnostico img.img-diag { max-width: 200px; position: absolute; top: -45px; right: -20px; }
+
+.form-diagnostico form { padding-top: 40px; }
+
+.form-diagnostico h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 36px; font-weight: normal; text-align: center; line-height: 1; }
+
+.form-diagnostico p { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 16px; text-align: center; }
+
+.campos-consultoria { background: transparent; border: 2px solid #D6D6D6; color: #D6D6D6; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 10px auto; padding: 10px 15px; width: 60% }
+
+.campos-consultoria:focus { outline: none; border: 2px solid #808080; }
+
+option.option { background: #323130; color: #D6D6D6; }
+
+.btn-enviar-consultoria { background: #323130; border: 2px solid #D6D6D6; color: #D6D6D6; cursor: pointer; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; padding: 10px; width: 100px; }
+
+.btn-enviar-consultoria:hover { background: #808080; }
+
+
+
+section.cont-bottom-consultoria { background: url('images/iss-consultores-consultoria-iso-nuevemil.png') top center no-repeat; margin: 0 auto; width: 100%; }
+
+.bottom-consultoria { margin: 0 auto; max-width: 680px; padding: 60px 10px; }
+
+.bottom-consultoria p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; padding: 10px 0; }
+
+.bottom-consultoria p span { font-family: 'gandhi-bolditalic', verdana, helvetica, sans-serif; }
+
+.bottom-consultoria p img { max-width: 40px; }
+
+
+
+/* ===== PROYECTOS ===== */
+
+section.cont-titulo-proyectos { background: url('images/iss-consultores-proyectos-itulo.png') bottom center no-repeat; margin: 0 auto; width: 100%; }
+
+.titulo-proyectos { max-width: 600px; margin: 0 auto; padding: 50px 10px 110px 10px; }
+
+.titulo-proyectos h2 { color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; padding-bottom: 20px; }
+
+.titulo-proyectos p { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; }
+
+
+
+section.cont-diagnostico-proyectos { margin: 0 auto; width: 100%; }
+
+.diagnostico-proyectos { margin: 0 auto; max-width: 1140px; padding: 40px 10px; width: 100%; }
+
+.diagnostico-proyectos p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; max-width: 880px; margin: 0 auto; }
+
+.diagnostico-proyectos p span { font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 30px; }
+
+.form-diagnostico p { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 18px; text-align: center; }
+
+
+
+/* ===== CAPACITACION ===== */
+
+section.cont-titulo-capacitacion { background: url('images/iss-consultores-capacitaciones-vamos-bg.png') center center no-repeat; margin: 0 auto; width: 100%; }
+
+.titulo-capacitacion { max-width: 1080px; margin: 0 auto; padding: 40px 10px 0 10px; }
+
+.titulo-capacitacion img, .titulo-capacitacion h2 { display: inline-block;  margin-bottom: -92px; vertical-align: top; width: 44%; }
+
+.titulo-capacitacion h2 { color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; text-align: center; width: 55%; line-height: 1; }
+
+
+
+section.cont-obtendras-capacitacion { margin: 0 auto; width: 100%; }
+
+.obtendras-capacitacion { max-width: 1080px; margin: 0 auto; padding: 40px 10px 20px 10px; overflow: hidden; }
+
+.obtendras-capacitacion h3 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 40px; font-weight: normal; }
+
+.grafica { display: inline-block; vertical-align: top; width: 19%; margin: 0 auto; padding: 10px; text-align: center; }
+
+.grafica p { color: #323130; font-family: 'gandhi-italic', verdana, helvetica, sans-serif; font-size: 20px;  }
+
+.chart { position: relative; display: inline-block; width: 110px; height: 110px; margin-top: 20px; margin-bottom: 20px; text-align: center; }
+
+.chart canvas { position: absolute; top: 0; left: 0; }
+
+.percent { display: inline-block; line-height: 110px; z-index: 2; color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 30px; }
+
+.percent:after { content: '%'; margin-left: 0.1em; color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 30px; }
+
+
+
+section.cont-incluyen-capacitacion { margin: 40px auto 80px auto; width: 100%; }
+
+.incluyen-capacitacion { max-width: 1080px; margin: 0 auto; padding: 0 10px; }
+
+.incluyen-capacitacion h3, .mas-blog { color: #541913; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 50px; font-weight: normal; }
+
+.incluyen-capacitacion ul { padding: 20px 0; }
+
+.incluyen-capacitacion ul li { display: inline-block; margin: 10px 0; vertical-align: top; text-align: left; width: 49%; }
+
+.incluyen-capacitacion ul li img, .incluyen-capacitacion ul li p { display: inline-block; vertical-align: middle; width: 80%; }
+
+.incluyen-capacitacion ul li img { max-width: 60px; }
+
+.incluyen-capacitacion ul li p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; padding-left: 10px; }
+
+.btn-incluyen { margin: 20px auto; }
+
+.btn-incluyen a { background: #541913; color: #D6D6D6; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; padding: 15px 20px; text-decoration: none; }
+
+.btn-incluyen a:hover { background: #323130; }
+
+
+
+section.cont-vamos-capacitacion { background: url('images/iss-consultores-capacitaciones-vamos-bg.png') center center no-repeat; margin: 0 auto; width: 100%; }
+
+.vamos-capacitacion { max-width: 1080px; margin: 0 auto; padding: 0 10px; }
+
+.img-vamos, .txt-vamos { display: inline-block; vertical-align: middle; width: 39%; }
+
+.txt-vamos { width: 60%; }
+
+.img-vamos img { max-width: 334px; margin-bottom: -4px;  }
+
+.txt-vamos h2 { color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; }
+
+.txt-vamos p { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; }
+
+.btn-vamos { margin-top: 40px; }
+
+.btn-vamos a { background: #D6D6D6; color: #541913; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; padding: 15px 20px; text-decoration: none; }
+
+
+
+section.cont-agenda-capacitacion { margin: 0 auto; width: 100%; }
+
+.agenda-capacitacion { max-width: 1080px; margin: 0 auto; padding: 40px 10px; }
+
+.agenda-capacitacion h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; line-height: 0.85; margin-bottom: 40px; }
+
+.agenda-capacitacion h2 span { font-size: 45px; }
+
+.agenda-capacitacion h3 { background: url('images/iss-consultores-capacitaciones-obten-bg.png') center center no-repeat; color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 55px; font-weight: normal; line-height: 0.85; padding: 25px 20px 55px 10px; margin-bottom: 40px; }
+
+.agenda-capacitacion h3 span { font-size: 35px;  }
+
+
+
+ul.tabs { border-bottom: 2px solid #323130; list-style-type: none; margin: 0 auto; width: 100%; }
+
+ul.tabs li { border-top: 2px solid #323130; border-right: 2px solid #323130; border-left: 2px solid #323130; cursor: pointer; display: inline-block; margin: 0; width: 15%; }
+
+ul.tabs li a { color: #323130; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px;  padding: 10px; text-decoration: none; }
+
+ul.tabs li a:hover { background: #323130; color: #D6D6D6; }
+
+ul.tabs li.active a { background: #323130; color: #D6D6D6; }
+
+.clr { clear: both; }
+
+.block, article { margin: 20px auto; padding: 0 10px; overflow: hidden; }
+
+.cont-gral-cap { float: left; width: 33.3%; padding: 10px; }
+
+.cont-cap { background: #323130; color: #D6D6D6; }
+
+.txt-cont-cap { padding: 20px; text-align: left; }
+
+.txt-cont-cap p.ttl-curso { color: #D6D6D6; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 25px; }
+
+.txt-cont-cap p.precio-normal { color: #808080; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; text-decoration: line-through; }
+
+.txt-cont-cap p.precio-dcto { color: #D6D6D6; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 35px; }
+
+.txt-cont-cap p.fechas { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; }
+
+.btn-curso { margin: 40px 0 20px 0; }
+
+.btn-curso a { background: transparent; border: 2px solid #D6D6D6; color: #D6D6D6; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; padding: 10px; text-decoration: none; }
+
+.btn-curso a:hover { background: #D6D6D6; color: #323130; }
+
+
+
+section.cont-escribenos-capacitacion { background: url('images/iss-consultores-capacitaciones-contacto-bg.png') top center no-repeat; margin: 0 auto; width: 100%; }
+
+.escribenos-capacitacion { max-width: 500px; margin: 0 auto; padding: 180px 10px 40px 10px; }
+
+.escribenos-capacitacion h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 55px; font-weight: normal; }
+
+.escribenos-capacitacion p { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; padding-bottom: 20px; }
+
+.campos-cap { background: transparent; border: 2px solid #D6D6D6; color: #D6D6D6; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 15px 0; padding: 15px 10px; width: 100%; }
+
+.campos-consultoria{background: transparent; border: 2px solid #D6D6D6; color: #D6D6D6; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 10px auto;    padding: 10px 15px; width: 60%;}
+
+.campos-cap option { background: #808080; }
+
+.campos-cap:focus { border: 2px solid #323130; outline: none; }
+
+.btn-enviar-cap, .button-primary, .register-button { background: #323130; color: #D6D6D6; cursor: pointer; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; padding: 10px; width: 120px; }
+
+.btn-enviar-cap:hover, .button-primary:hover, .register-button { background: #D6D6D6; color: #323130; }
+
+
+
+/* ===== SINGLE ===== */
+
+section.cont-top-single { margin: 0 auto; width: 100%; }
+
+.top-single { max-width: 900px; margin: 0 auto; padding: 40px 10px; }
+
+.top-single img { max-width: 680px; margin-bottom: -4px; }
+
+.txt-single, .form-single { background: #808080; display: inline-block; padding: 10px 20px; text-align: left; vertical-align: top; width: 64%; }
+
+.form-single { background: #323130; margin-left: -4px; width: 35%; }
+
+.txt-single h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 35px; font-weight: normal; margin: 10px 0; }
+
+.txt-single .fecha { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; }
+
+.txt-single .precio { color: #323130; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 30px; margin: 10px 0; }
+
+.txt-single p.precio-normal { color: #323130; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 25px; text-decoration: line-through; }
+
+.txt-single p.precio-dcto { color: #D6D6D6; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 35px; }
+
+.txt-single .lugar, .txt-single .duracion { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; }
+
+.txt-single .lugar span, .txt-single .duracion span { font-family: 'gandhi-bold', verdana, helvetica, sans-serif; }
+
+.txt-single h3 { background: #323130; color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 35px; font-weight: normal; margin: 20px 0 20px -20px; padding: 10px 20px; }
+
+.btn-single { margin: 40px 0; }
+
+.btn-single a { background: #D6D6D6; border: 2px solid #D6D6D6; color: #323130; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; text-decoration: none; padding: 10px 15px; }
+
+.btn-single a:hover { background: transparent; }
+
+.form-single p { color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 16px; text-align: center; margin: 10px 0; }
+
+.form-single form { margin: 20px 0; }
+
+.campos-single { background: transparent; border: 2px solid #D6D6D6; color: #D6D6D6; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; padding: 15px; margin: 10px 0;  width: 100%; }
+
+.campos-single option { background: #323130; }
+
+.campos-single:focus { outline: none; border: 2px solid #808080; }
+
+.btn-enviar-single { background: #D6D6D6; border: 2px solid #D6D6D6; color: #323130; cursor: pointer; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; margin-top: 20px; text-decoration: none; padding: 10px 15px; }
+
+.btn-enviar-single:hover { background: transparent; color: #D6D6D6; }
+
+
+
+.beneficios ul li { float: left; width: 50%; list-style-type: none; vertical-align: top; text-align: left; margin: 10px 0;  }
+
+.beneficios ul li img, .beneficios ul li p { display: inline-block; color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; vertical-align: middle; width: 85%; }
+
+.beneficios ul li img { max-width: 60px; padding-right: 10px; }
+
+
+
+.participantes h2 { color: #541913; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 30px; font-weight: normal; }
+
+.participantes ul, .dirigido ul { max-width: 580px; margin: 0 auto; }
+
+.participantes ul li, .dirigido ul li { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; list-style-type: square; text-align: left; }
+
+
+
+.dirigido h2 { color: #541913; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 30px; font-weight: normal; }
+
+.dirigido p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 18px; list-style-type: square; text-align: left; max-width: 580px; margin: 0 auto;  }
+
+
+
+.reservar-single { margin-top: 20px; text-align: left; }
+
+.reservar-single h3 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 25px; font-weight: normal; }
+
+.reservar-single h3 span { font-size: 45px; font-weight: bold; }
+
+.btn-reservar-single { margin: 20px 0; }
+
+.btn-reservar-single a { background: #541913; color: #D6D6D6; border: 2px solid #541913; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 16px; text-decoration: none; padding: 10px 15px; }
+
+.btn-reservar-single a:hover { background: transparent; color: #541913; }
+
+.reservar-single .disp { color: #323130; font-family: 'gandhi-bolditalic', verdana, helvetica, sans-serif; font-size: 16px; }
+
+/* ===== DATOS TOP ===== */
+
+section.cont-top-datos { background: url('images/iss-consultores-nosotros-top-bg.png') bottom center no-repeat; margin: 0 auto; width: 100%; }
+
+.top-datos { max-width: 680px; margin: 0 auto; padding: 35px 10px 70px 10px; }
+
+.top-datos h2 { color: #323130; font-family: 'optima', verdana, helvetica, sans-serif; font-weight: normal; }
+
+.top-datos p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 30px; }
+
+.content-aviso fieldset {
+	padding: 15px;
+	border: 1px solid #D8D8D8;
+	margin: 25px 0;
+}
+
+.content-aviso legend {
+	font-weight: bold;
+}
+
+#datosusuario input, #datosusuario select { border: 2px solid #808080; background: #FFF; color: #323130; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 10px 0; padding: 10px 15px; width: 100%; min-width: 200px; }
+
+#datosusuario input:focus { border: 2px solid #323130; }
+
+#datosusuario input.btn-enviar { background: #323130; color: #D6D6D6; cursor: pointer; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 0 auto; max-width: 120px; }
+
+#datosusuario input.btn-enviar:hover { background: #808080; }
+
+#datosusuario .third {
+	float: left;
+	width: 30%;
+	margin: 10px 3% 10px 0;
+}
+
+.tip {
+	font-style: italic;
+	text-align: left;
+	width: 100%;
+	clear: both;
+}
+
+#datosusuario input.btn-enviar { border: 0; background: #323130; color: #D6D6D6; cursor: pointer; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 0 auto; max-width: 120px; }
+
+#datosusuario input.btn-enviar:hover { background: #808080; }
+
+/* blog */
+.blog-head {
+	width: 100%;
+	background: #873031;
+	font-family: 'gandhi', verdana, helvetica, sans-serif;
+}
+.blog-arts ul {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'gandhi', verdana, helvetica, sans-serif;
+}
+.blog-arts ul li {
+	float: left;
+	width: 450px;
+	margin: 10px;
+	padding: 25px 0;
+	background: #323130;
+	color: #fff;
+}
+.blog-img {
+	float: left;
+	width: 450px;
+}
+.blog-content {
+    float: left;
+    width: 450px;
+    padding: 0;
+    color: #d6d6d6;
+}
+.blog-head-art {
+	width: 940px;
+}
+h2.blog {
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	width: 75%;
+	margin: 0 auto 10px auto;
+}
+h2.blog a {
+	color: #d6d6d6;
+	text-decoration: none;
+}
+h2.blog a:hover {
+	text-decoration: underline;
+}
+.blog-content h2 {
+	font-size: 35px;
+	font-style: italic;	
+	width: 410px;
+	margin: 0 auto 10px auto;	
+}
+p.excerpt {
+	width: 410px;
+	margin: 0 auto 10px auto;
+}
+.thedate {
+	width: 100%;
+	background: #d6d6d6;
+	padding: 10px 20px;
+}
+.thedate p {
+	float: left;
+	margin-right: 15px;
+	color: #323130;
+	font-style: italic;
+	font-size: 15px;
+	padding: 0 0 0 35px;
+	background-position: 0 50%;
+    line-height: 29px;
+}
+.thedate .dateicon {
+	background-image: url(images/date.png);
+	background-repeat: no-repeat;
+}
+.thedate .commenticon {
+	background-image: url(images/comments.png);
+	background-repeat: no-repeat;
+}
+.thedate .shareicon {
+	background-image: url(images/share.png);
+	background-repeat: no-repeat;
+}
+/* fin del blog */
+
+/* ===== FOOTER ===== */
+
+footer { margin: 0 auto; width: 100%; }
+
+.cont-menu-footer { background: #323130; padding: 20px 0; width: 100%; }
+
+.menu-footer { max-width: 1080px; margin: 0 auto; padding: 0 10px; }
+
+.menu-footer ul, .redes-footer { display: inline-block; width: 70%; text-align: left; vertical-align: top; }
+
+.redes-footer { text-align: right; width: 29%; }
+
+.menu-footer ul li { border-right: 1px solid #808080; display: inline-block; padding: 0 20px; text-align: left; vertical-align: top; }
+
+.menu-footer ul li:last-child { border-right: 0; }
+
+.menu-footer ul li h3 { margin-bottom: 10px; }
+
+.menu-footer ul li p { margin-bottom: 5px; }
+
+.menu-footer ul li h3 a { color: #FFF; display: block;  font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 18px; text-decoration: none; }
+
+.menu-footer ul li h3 a:hover, .menu-footer ul li p a:hover { color: #808080; }
+
+.menu-footer ul li p a { color: #FFF; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 14px; text-decoration: none; }
+
+.redes-footer a { border: 2px solid #FFF; display: inline-block; }
+
+.redes-footer a:hover { border: 2px solid #808080; }
+
+.copy-foot { background: #D6D6D6; padding: 10px; width: 100%; }
+
+.copy-foot p { color: #323130; font-family: 'gandhi-bold', verdana, helvetica, sans-serif; font-size: 14px; }
+
+/* aviso privacidad */ 
+.content-aviso {
+	max-width: 940px;
+	padding: 30px;
+	background: #fff;
+	margin: 20px auto;
+	font-family: 'gandhi', verdana, helvetica, sans-serif;
+	text-align: left;
+}
+.content-aviso h1, .content-aviso h3, .content-login h1 {
+	margin: 1em 0;
+	color: #323130;
+}
+/* fin aviso privacidad */ 
+
+/* login form */
+
+.content-login {
+	max-width: 940px;
+	padding: 30px;	
+	margin: 20px auto;
+	font-family: 'gandhi', verdana, helvetica, sans-serif;
+	text-align: left;
+}
+.login-form-container {
+	max-width: 320px;
+	padding: 20px;
+	margin: auto;
+	border: 1px solid #d8d8d8;
+	box-shadow: 0px 0px 5px #d6d6d6;
+	background: #fff;
+}
+
+.login-submit, .signup-submit {
+	text-align: center;
+	margin: 15px 0;
+}
+
+a.forgot-password {
+	color: #323130;
+	text-decoration: none;
+}
+
+a.forgot-password:hover {
+	text-decoration: underline;
+}
+
+/* login form */
+
+.user-icon {	
+	float: right;
+	width: 3%;
+	height: 20px;
+	margin: 20px 0;
+}
+
+.user-icon a:hover {
+	background-position: 50% top;
+}
+
+.user-icon a {
+	background-image: url(images/user.png);
+	background-repeat: no-repeat;
+	background-position: 50% bottom;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+p.max-width250 {
+	max-width: 250px;
+}
+
+.user-options a:hover {
+	opacity: 0.5;
+}
+
+.capacitaciones-list {
+	margin: 0;
+	padding: 0;
+	color: #323130;
+}
+.capacitaciones-list li {
+	list-style: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 0 0 15px 0;
+}
+.capacitaciones-list a {
+	color: #323130;
+}
+.capacitaciones-list a:hover {
+	text-decoration: none;
+}
+
+.login-form-container input[type=text], .login-form-container input[type=password] { border: 2px solid #808080; background: #FFF; color: #d6d6d6; display: block; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 10px 0; padding: 10px 15px; width: 100%; }
+
+.login-form-container input:focus { border: 2px solid #323130; }
+
+.login-form-container input.btn-enviar { background: #323130; color: #D6D6D6; cursor: pointer; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 16px; margin: 0 auto; max-width: 120px; }
+
+.login-form-container input.btn-enviar:hover { background: #808080; }
+
+.titulo-user-home { max-width: 600px; margin: 0 auto; padding: 30px 10px 110px 10px; }
+
+.titulo-user-home h2 { color: #D6D6D6; font-family: 'optima', verdana, helvetica, sans-serif; font-size: 65px; font-weight: normal; padding-bottom: 20px; }
+
+.titulo-user-home p { color: #D6D6D6; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 25px; }
+
+.compra-diagnostico {
+	margin: 0 auto;
+	max-width: 940px;
+	width: 85%;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	color: #323130;
+    font-family: 'gandhi', verdana, helvetica, sans-serif;
+}
+
+.compra-diagnostico li {
+	width: 45%;
+	float: left;
+	margin: 2.5%;
+	padding: 0;
+	list-style: none;
+}
+
+.compra-diagnostico li.center {
+	text-align: center;
+}
+
+.compra-diagnostico li.center form {
+	width: 60%;
+	margin: auto;
+}
+
+.compra-diagnostico li ul li {
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+.slider-capacitaciones {
+	height: 500px !important;
+}
+
+.slider-capacitaciones img {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 1080px) {
+	.info-form { margin-top: 1%; }
+	.titulo-capacitacion h2 { font-size: 50px; }
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+	.slider-index, .slider-img { display: none; }
+
+	.info-top-index { height: auto; position: static; margin-bottom: 10px;}
+
+	.info-aumenta, .info-reduce { position: static; width: 100%; }
+
+	.info-form { float: none; margin: 10px auto 0 auto;  }
+
+
+
+	.txt-ideologia { margin-bottom: 80px; }
+
+
+
+	.lista-diagnostico, .form-diagnostico { display: block; width: 99%; margin: 0 auto; }
+
+	.form-diagnostico { margin-top: 60px; width: 48%; }
+
+	.form-diagnostico img.img-diag { display: none;}
+
+}
+
+
+
+@media screen and (max-width: 900px) { 
+
+	.girosemp-index ul li { text-align: center; }
+
+	.girosemp-index ul li img, .girosemp-index ul li p { display: block; }
+
+	.girosemp-index ul li p { color: #323130; font-family: 'gandhi', verdana, helvetica, sans-serif; font-size: 20px; padding-left: 0; padding-top: 10px; }
+
+
+
+	.menu-footer ul { display: none; }
+
+	.redes-footer { text-align: center; width: 99%; }
+
+
+
+	img.cactus, img.cuaderno { display: none; }
+
+
+
+	.txt-ideologia { margin-bottom: 60px; }
+
+
+
+	.theme-default .nivo-controlNav { display: none; }
+
+
+
+	.nuestro-proceso-consultoria { padding: 10px; }
+
+	.nuestro-proceso-consultoria ul li { display: block; text-align: center; margin: 0 auto; padding-bottom: 20px; }
+
+	.nuestro-proceso-consultoria ul li:nth-child(odd) { width: 80%; }
+
+	.nuestro-proceso-consultoria ul li:nth-child(even) { width: 80%; padding-top: 0; }
+
+	.nuestro-proceso-consultoria ul li img { max-width: 300px; }
+
+	.nuestro-proceso-consultoria ul li img.uno { display: none }
+
+	.nuestro-proceso-consultoria ul li img.dos { display: block; max-width: 90px; margin: 0 auto; }
+
+	.nuestro-proceso-consultoria ul li ul.children li { margin-left: 0; }
+
+
+
+	.campos-consultoria { width: 70% }
+
+
+
+	.titulo-capacitacion { padding: 40px 10px; }
+
+	.titulo-capacitacion img { display: none; }
+
+	.titulo-capacitacion h2 { display: block; font-size: 55px; width: 90%; margin: 0 auto; }
+
+
+
+	.txt-single, .form-single { display: block; width: 100%; margin: 0 auto; }
+
+	.reservar-single { margin-top: 20px;}
+
+ }
+
+
+
+@media screen and (max-width: 800px) {
+
+	/* MENU MOBIL */
+
+	.menu_bar { display:block; float: right; text-align: right; width:50%; }
+
+	.menu_bar .bt-menu { display: block; padding: 10px; overflow: hidden; text-decoration: none; }
+
+	.menu_bar .bt-menu img { width: 40px; }
+
+	.cont-header nav { width: 100%; height: calc(100% - 80px); position: fixed; right:100%; margin: 0; margin-top: 70px; overflow-y: auto; }
+
+	.cont-header nav::-webkit-scrollbar, .cont-header nav::-webkit-scrollbar-thumb{ -webkit-box-shadow:none; -webkit-border-radius: 0; border:none; height:11px; width:8px; }
+
+	.cont-header nav::-webkit-scrollbar { background: #808080; -webkit-box-shadow:inset 0 0 3px rgba(0,0,0,.3); -webkit-border-radius: 4px; }
+
+	.cont-header nav::-webkit-scrollbar-thumb { background:#D6D6D6; -webkit-border-radius: 4px; border: none; }
+
+ 	.cont-header nav ul li { background: #323130; display: block; border-bottom:1px solid rgba(255,255,255,.5); text-align: center; }
+
+ 	.cont-header nav ul li a { color: #FFF; display: block; }
+
+ 	.cont-header nav ul li:hover .children { display: none; }
+
+ 	.cont-header nav ul li .children { background: #808080; width: 100%; position: relative; }
+
+	.cont-header nav ul li .children li a { margin-left:0; }
+
+	.cont-header nav ul li .caret { float: left; }
+
+
+
+	.metodologia-index p { max-width: 100%; margin-top: 0; text-align: center; }
+
+	.met-cafe { display: none; }
+
+
+
+	.cont-clientes-index { background: #323130; background-image: none; }
+
+	.clientes-index { padding: 40px 10px; }
+
+	.carousel-clientes-index { padding-top: 60px; }
+
+
+
+	.cat-servicios { width: 49%; }
+
+
+
+	.nuestra-ideologia-nosotros { padding: 40px 10px; }
+
+	.nuestra-ideologia-nosotros img { display: none; }
+
+	.txt-ideologia { display: block; margin-bottom: 0; width: 99%; }
+
+
+
+	.bottom-consultoria p { font-size: 25px; }
+
+
+
+	.grafica { width: 30%; }
+
+
+
+	.vamos-capacitacion { padding: 40px 10px; }
+
+	.img-vamos { display: none; }
+
+	.txt-vamos { display: block; width: 90%; }
+
+
+
+	ul.tabs li { width: 49%; }
+
+
+
+	.beneficios ul li img, .beneficios ul li p { display: block; text-align: center; margin: 0 auto;}
+
+	.beneficios ul li img { max-width: 60px; padding-right: 10px; margin: 0 auto; }
+
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+	.metodologia-index p { font-size: 20px; }
+
+  	.metodologia-index p span { font-size: 45px; }
+
+
+
+  	.girosemp-index ul li { width: 49%; }
+
+
+
+  	.cat-servicios { width: 99%; }
+
+  	.servicios-index h2 { font-size: 45px; }
+
+	.servicios-index p { font-size: 20px; }
+
+
+
+	.clientes-index h2 { font-size: 45px; }
+
+	.clientes-index p { font-size: 20px; }
+
+	.carousel-clientes-index { padding-top: 20px; }
+
+
+
+	.girosemp-index h2 { font-size: 45px; }
+
+	.girosemp-index p { font-size: 20px; }
+
+
+
+	.top-nosotros { padding: 120px 10px 160px 10px; }
+
+	.top-nosotros h2 { font-size: 45px; }
+
+	.top-nosotros p { font-size: 25px; }
+
+
+
+	.nuestro-prop-nosotros ul li { width: 30%; }
+
+
+
+	.txt-ideologia h3 { font-size: 45px; margin-bottom: 20px; }
+
+	.txt-ideologia p { font-size: 22px; }
+
+
+
+	.nuestro-proceso-consultoria h2 { font-size: 45px; }
+
+
+
+	.diagnostico-consultoria { padding: 10px; }
+
+	.diagnostico-consultoria h3 { font-size: 30px; }
+
+	.diagnostico-consultoria p { font-size: 20px; }
+
+
+
+	.lista-diagnostico ul li { display: block; margin: 10px auto; width: 90%; }
+
+	.lista-diagnostico ul li p { width: 80%; }
+
+
+
+	.form-diagnostico { width: 58%; }
+
+	.campos-consultoria { width: 92% }
+
+
+
+	.bottom-consultoria { padding: 30px 10px; }
+
+
+
+	.titulo-proyectos { padding: 30px 10px 70px 10px; }
+
+	.titulo-proyectos h2 { font-size: 45px; }
+
+	.titulo-proyectos p { font-size: 20px; }
+
+
+
+	.incluyen-capacitacion ul li { display: block; width: 100%; }
+
+	
+
+	.txt-vamos h2 { font-size: 45px; }
+
+
+
+	.cont-gral-cap { width: 50%; margin: 0 auto; }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  	.top-nosotros { padding: 80px 10px 160px 10px; }
+
+
+
+  	.nuestro-prop-nosotros ul li { width: 48%; }
+
+  	.nuestro-prop-nosotros p { font-size: 25px;}
+
+
+
+  	.titulo-consultoria { padding: 40px 10px; }
+
+	.titulo-consultoria h2 { font-size: 45px;}
+
+	.titulo-consultoria p { font-size: 20px; }
+
+
+
+	.form-diagnostico { width: 70%; }
+
+	.campos-consultoria { width: 92% }
+
+
+
+	.bottom-consultoria { padding: 20px 10px; }
+
+	.bottom-consultoria p { font-size: 20px; }
+
+	.bottom-consultoria p img { max-width: 30px; }
+
+
+
+	.diagnostico-proyectos p { font-size: 20px; }
+
+	.diagnostico-proyectos p span { font-size: 25px; }
+
+
+
+	.grafica { width: 45%; }
+
+
+
+	.agenda-capacitacion h2 { font-size: 60px; line-height: 0.6; }
+
+	.agenda-capacitacion h2 span { font-size: 30px; }
+
+
+
+	ul.tabs li { width: 90%; }
+
+
+
+	.beneficios ul li { float: none; margin: 10px auto; width: 100%; }
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+
+	.metodologia-index p { font-size: 16px; }
+
+  	.metodologia-index p span { font-size: 32px; }
+
+
+
+  	.servicios-index h2 { line-height: 1; }
+
+  	.girosemp-index h2 { line-height: 1; }
+
+
+
+  	.top-nosotros { padding: 90px 10px 100px 10px; }
+
+	.top-nosotros h2 { font-size: 40px; }
+
+
+
+	.nuestro-proceso-consultoria h2 { font-size: 35px; }
+
+
+
+	.nuestro-proceso-consultoria ul li:nth-child(odd) { width: 100%; }
+
+	.nuestro-proceso-consultoria ul li:nth-child(even) { width: 20%; }
+
+
+
+	.lista-diagnostico ul li img, .lista-diagnostico ul li p { display: block; width: 90%; margin: 0 auto; text-align: center; }
+
+	.lista-diagnostico ul li img { max-width: 60px; padding-right: 0; }
+
+	.form-diagnostico { width: 90%; }
+
+	.campos-consultoria { width: 92% }
+
+
+
+	.incluyen-capacitacion ul li img, .incluyen-capacitacion ul li p { display: block; margin: 0 auto; text-align: center; }
+
+
+
+	.agenda-capacitacion h3 { background-image: none; background: #541913; color: #D6D6D6; font-size: 40px; line-height: 0.85; padding: 25px 20px; }
+
+	.agenda-capacitacion h3 span { font-size: 30px;  }
+
+
+
+	.cont-gral-cap { width: 100%; }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+  	.top-nosotros { padding: 50px 10px 100px 10px; }
+
+	.top-nosotros h2 { font-size: 35px; }
+
+
+
+	.form-diagnostico { width: 95%; }
+
+	.campos-consultoria { width: 95% }
+
+
+
+	.slider-proyectos { display: none; }
+
+
+
+	.grafica { width: 90%; }
+
+}
+
+
+
+/* ===== FUENTES ===== */
+
+@font-face { font-family: 'optima-bold'; src: url('fonts/optima-bold.eot'); src: url('fonts/optima-bold.eot?#iefix') format('embedded-opentype'), url('fonts/optima-bold.woff2') format('woff2'), url('fonts/optima-bold.woff') format('woff'), url('fonts/optima-bold.ttf') format('truetype'), url('fonts/optima-bold.svg#optima-bold') format('svg'); font-weight: 100; font-style: italic; } @font-face { font-family: 'optima'; src: url('fonts/optima.eot'); src: url('fonts/optima.eot?#iefix') format('embedded-opentype'), url('fonts/optima.woff2') format('woff2'), url('fonts/optima.woff') format('woff'), url('fonts/optima.ttf') format('truetype'), url('fonts/optima.svg#optima') format('svg'); font-weight: 100; font-style: italic; } @font-face { font-family: 'gandhi-bolditalic'; src: url('fonts/gandhi-bolditalic.eot'); src: url('fonts/gandhi-bolditalic.eot?#iefix') format('embedded-opentype'), url('fonts/gandhi-bolditalic.woff2') format('woff2'), url('fonts/gandhi-bolditalic.woff') format('woff'), url('fonts/gandhi-bolditalic.ttf') format('truetype'), url('fonts/gandhi-bolditalic.svg#gandhi-bolditalic') format('svg'); font-weight: bold; font-style: italic; } @font-face { font-family: 'gandhi'; src: url('fonts/gandhi-regular.eot'); src: url('fonts/gandhi-regular.eot?#iefix') format('embedded-opentype'), url('fonts/gandhi-regular.woff2') format('woff2'), url('fonts/gandhi-regular.woff') format('woff'), url('fonts/gandhi-regular.ttf') format('truetype'), url('fonts/gandhi-regular.svg#gandhi-regular') format('svg'); font-weight: normal; font-style: normal; } @font-face { font-family: 'gandhi-italic'; src: url('fonts/gandhi-italic.eot'); src: url('fonts/gandhi-italic.eot?#iefix') format('embedded-opentype'), url('fonts/gandhi-italic.woff2') format('woff2'), url('fonts/gandhi-italic.woff') format('woff'), url('fonts/gandhi-italic.ttf') format('truetype'), url('fonts/gandhi-italic.svg#gandhi-italic') format('svg'); font-weight: normal; font-style: italic; } @font-face { font-family: 'gandhi-bold'; src: url('fonts/gandhi-bold.eot'); src: url('fonts/gandhi-bold.eot?#iefix') format('embedded-opentype'), url('fonts/gandhi-bold.woff2') format('woff2'), url('fonts/gandhi-bold.woff') format('woff'), url('fonts/gandhi-bold.ttf') format('truetype'), url('fonts/gandhi-bold.svg#gandhi-bold') format('svg'); font-weight: bold; font-style: normal; }
